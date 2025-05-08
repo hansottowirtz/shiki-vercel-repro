@@ -1,5 +1,6 @@
-import Image from "next/image";
 import { CodeToHtml } from "./CodeToHtml";
+
+export const dynamic = 'force-dynamic';
 
 export default function Home() {
   return (

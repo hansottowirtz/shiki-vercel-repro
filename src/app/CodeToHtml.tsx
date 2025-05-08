@@ -16,7 +16,7 @@ export async function CodeToHtml({
     langs: ["tsx"]
   });
 
-  const html = await highlighter.codeToHtml(code, {
+  const html = highlighter.codeToHtml(code, {
     lang: language,
     theme: "poimandres",
   });
