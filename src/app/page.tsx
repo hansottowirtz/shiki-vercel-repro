@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <CodeToHtml
       language="tsx"
-      code={`<TrackDone onDone={() => console.log("✅")}>
+      code={`<TrackDone onDone={() => console.log("ok")}>
   <Image src="https://picsum.photos/200" />
 </TrackDone>`}
     />

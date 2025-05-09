@@ -16,6 +16,13 @@ export async function CodeToHtml({
     langs: ["tsx"]
   });
 
+  console.log(
+    highlighter.codeToTokensBase(code, {
+      lang: language as any,
+      theme: "poimandres",
+    })
+  )
+
   const html = highlighter.codeToHtml(code, {
     lang: language,
     theme: "poimandres",
